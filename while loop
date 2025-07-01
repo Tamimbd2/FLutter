@@ -1,0 +1,28 @@
+main(){
+int i = 1;
+int a = 1;
+ while( i <= 10){
+
+   print("15* $i=   ${15*(i)}");
+   i++;
+
+
+ }
+
+
+ while( a <= 20){
+
+   print('$a');
+   a++;
+ }
+ // list er moddhe while loop
+List<String> student = ['Rahim','Karim','Tamim','Jojo'];
+List<double> result = [3.5,2.4,4.0,3.70];
+int index = 0;
+while(index< student.length){
+
+  print("${student[index]} Your result is ${result[index]}");
+index++;
+}
+
+}
