@@ -1,0 +1,21 @@
+main(){
+
+for(int i = 0; i <= 10; i++){
+  print('this is my $i Loop');
+}
+
+for(int w=1; w<=10; w++){
+  
+  print('10 * $w = ${10*(w)}' );
+
+}
+//List in loop
+
+List<String> student = ['Rahim','Karim','Tamim','Jojo'];
+List<int> amount = [100,400,200,233];
+print("Student: ${student[2]}");
+  for(int index = 0; index <= index.bitLength; index ++){
+    print('Student name $index : ${student[index]} Due = ${amount[index]}');
+  }
+
+}
