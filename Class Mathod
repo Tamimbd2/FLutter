@@ -1,0 +1,44 @@
+main(){
+
+  //without Class
+String ? name = 'Tamim';
+String ? Class = 'Class 10';
+String ? Address = 'Dhaka';
+
+print('$name');
+print('$Class');
+print('$Address');
+print('$name,$Class,$Address');
+
+student student1 = student();  // call class
+student1.name= 'Rahim';
+student1.Class= 'Class 9';
+student1.Address = 'Rangpur';
+
+print(student1.name);
+print(student1.Class);
+print(student1.Address);
+
+print('-------------------------');
+
+Human man = Human();// class call
+man.name = 'Mahabub';
+print(man.eye);
+print(man.hand);
+man.moving();         // method call
+}
+   //Class
+class student{
+  String ? name;
+  String ? Class;
+  String ? Address;
+}
+class Human{
+  int hand = 2 ;
+  int eye = 2;
+  String ? name;
+  //method create
+  moving(){   // data type deya jabe tobe return 1 dite hobe
+    print('$name The human is killed world');
+  }
+}
