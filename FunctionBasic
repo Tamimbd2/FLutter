@@ -1,0 +1,30 @@
+main(){
+// without function
+
+  double a = 2.5;
+  double b = 3.5;
+  double area = a * b ;
+  print("$area");
+
+  double c = 1.5;
+  double d = 2.5;
+  double area1 = c * d ;
+  print("$area1");
+
+  double e = 1.5;
+  double f = 1.5;
+  double area2 = e * f ;
+  print("$area2");
+print("_____________________________");//line for separetion
+  //with function
+
+  double calculate(double length , double width){
+    double area = length * width;
+
+    return area;
+  }
+  print("${calculate(2.5,3.5)}");
+  print("${calculate(1.5,2.5)}");
+  print("${calculate(1.5,1.5)}");
+
+}
